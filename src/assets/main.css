@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fade-left-enter-active,
+.fade-left-leave-active {
+  transition: opacity 1s, transform 1s;
+}
+.fade-left-enter-from,
+.fade-left-leave-to {
+  opacity: 0;
+  transform: translateX(50px);
+}
+.fade-left-enter-to,
+.fade-left-leave-from {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.flip-up-enter-active,
+.flip-up-leave-active {
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+.flip-up-enter, .flip-up-leave-to /* .flip-up-leave-active in <2.1.8 */ {
+  transform: rotateX(90deg);
+}
+.flip-up-leave, .flip-up-enter-to /* .flip-up-enter-active in <2.1.8 */ {
+  transform: rotateX(0);
+}
+/** */
+
+.fontabout {
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.fontlogo {
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.fontbar {
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.hero {
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.fonthero{
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.card {
+  color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
