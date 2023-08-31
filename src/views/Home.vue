@@ -1,6 +1,6 @@
 <script setup>
-import Footer from '../components/footer.vue';
-import navbar from '../components/navbar.vue';
+import kaki from '../components/footer.vue';
+import atas from '../components/atas.vue';
 import lingkaran from '../components/icons/lingkaran.vue';
 import Card from '../components/card.vue';
 
@@ -14,7 +14,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <navbar />
+  <atas />
   <main class="pt-0 md:pt-0">
     <section
       class="flex items-center justify-center md:flex-row bg-Toko-hijau md:h-screen h-fit w-auto">
@@ -171,6 +171,5 @@ onMounted(() => {
       </div>
     </div>
   </section>
-
-  <Footer />
+  <kaki></kaki>
 </template>
