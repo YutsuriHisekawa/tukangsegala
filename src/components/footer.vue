@@ -7,7 +7,7 @@
             href=""
             class="flex items-center">
             <img
-              src="../assets/logo toko serba guna.svg"
+              src="../assets/logo_toko_serba_guna.svg"
               class="h-8 mr-3"
               alt="FlowBite Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap text-white fonthero"

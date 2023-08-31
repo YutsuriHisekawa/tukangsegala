@@ -5,7 +5,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang cat.png"
+        src="../assets/Card/Tukang_cat.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -44,7 +44,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang Tamu.png"
+        src="../assets/Card/Tukang_Tamu.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -83,7 +83,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang kebun.png"
+        src="../assets/Card/Tukang_kebun.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -122,7 +122,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang Ngebor.png"
+        src="../assets/Card/Tukang_Ngebor.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -161,7 +161,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang Arsitektur.png"
+        src="../assets/Card/Tukang_Arsitektur.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -200,7 +200,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang service.png"
+        src="../assets/Card/Tukang_service.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->

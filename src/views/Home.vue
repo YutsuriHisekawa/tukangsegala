@@ -1,12 +1,10 @@
 <script setup>
-import Navbar from '../components/Navbar.vue';
 import Footer from '../components/footer.vue';
-import tukang from '../components/card.vue';
-
+import navbar from '../components/navbar.vue';
 import lingkaran from '../components/icons/lingkaran.vue';
+import Card from '../components/card.vue';
 
 import { ref, onMounted } from 'vue';
-import Card from '../components/card.vue';
 const showHeroImage = ref(false);
 onMounted(() => {
   setTimeout(() => {
@@ -16,7 +14,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Navbar />
+  <navbar />
   <main class="pt-0 md:pt-0">
     <section
       class="flex items-center justify-center md:flex-row bg-Toko-hijau md:h-screen h-fit w-auto">
@@ -58,7 +56,7 @@ onMounted(() => {
             v-if="showHeroImage"
             class="md:w-1/2 w-full md:flex justify-end relative mb-8 md:mb-0">
             <img
-              src="../assets/Hero/Mockup phone.png"
+              src="../assets/Hero/Mockup_phone.png"
               alt="Hero Image" />
           </div>
         </transition>
@@ -73,7 +71,7 @@ onMounted(() => {
       class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
       <div class="lg:col-span-5 lg:flex lg:items-center md:ml-0 ml-10">
         <img
-          src="../assets/Hero/Tukang di atas genteng.png"
+          src="../assets/Hero/Tukang_di_atas_genteng.png"
           alt="hero image"
           class="mx-auto w-full" />
       </div>
@@ -88,7 +86,7 @@ onMounted(() => {
           <div class="flex items-center mb-4 mt-10">
             <!-- Palu -->
             <img
-              src="../assets/Tukang Segala Icon/Tukang.png"
+              src="../assets/Tukang_Segala_Icon/Tukang.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">
               Memiliki lebih dari 100+ tukang yang tersebar diseluruh Indonesia.
@@ -97,14 +95,14 @@ onMounted(() => {
           <div class="flex items-center mb-4">
             <!-- Group -->
             <img
-              src="../assets/Tukang Segala Icon/Pelayanan.png"
+              src="../assets/Tukang_Segala_Icon/Pelayanan.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">Mengutamakan pelayanan dan kepuasan pelanggan.</p>
           </div>
           <div class="flex items-center mb-4">
             <!-- Jam -->
             <img
-              src="../assets/Tukang Segala Icon/Waktu.png"
+              src="../assets/Tukang_Segala_Icon/Waktu.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">
               Menghemat waktu pelanggan dalam mencari tukang yang dibutuhkan.
@@ -113,7 +111,7 @@ onMounted(() => {
           <div class="flex items-center mb-4">
             <!-- Report -->
             <img
-              src="../assets/Tukang Segala Icon/sertifikasi.png"
+              src="../assets/Tukang_Segala_Icon/sertifikasi.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">
               Seluruh tukang yang ada di tukangsegala.com telah memiliki sertifikasi keahlian.
