@@ -16,15 +16,13 @@ onMounted(() => {
 
 <template>
   <atas />
-  <main class="pt-0 md:pt-0 xl:pt-0">
+  <main class="pt-0 md:pt-0">
     <section
-      class="flex items-center justify-center md:flex-row xl:flex-row bg-Toko-hijau md:h-screen xl:h-screen h-fit w-auto">
-      <div
-        class="container mx-auto flex mt-16 xl:mt-20 items-center flex-col md:flex-row xl:flex-row">
-        <!-- Left Section -->
-        <div class="w-full md:w-1/2 xl:w-1/2 mb-4 md:mb-0 xl:mb-0 p-4 xl:p-6">
+      class="flex items-center justify-center md:flex-row bg-Toko-hijau md:h-screen h-fit w-auto">
+      <div class="container mx-auto flex mt-16 items-center flex-col md:flex-row">
+        <div class="md:w-1/2 w-full mb-4 md:mb-0 p-4">
           <div class="relative">
-            <div class="hidden md:block xl:block">
+            <div class="hidden md:block">
               <lingkaran />
             </div>
 
@@ -35,31 +33,29 @@ onMounted(() => {
           <p class="mb-6 fonthero text-white">
             Sekarang cari tukang lebih mudah dan praktis dengan pesan di tukangsegala.com
           </p>
-          <hr class="md:w-[530px] xl:w-[530px] w-full border-t-2 border-white mb-4" />
+          <hr class="md:w-[530px] w-full border-t-2 border-white mb-4" />
           <div class="flex items-center mt-10">
             <span class="fonthero text-white">Download Aplikasi</span>
           </div>
-          <div class="flex space-x-4 md:space-x-8 xl:space-x-8 mt-5">
+          <div class="flex space-x-4 md:space-x-8 mt-5">
             <a href="">
               <img
                 src="/Component/GooglePlay.png"
                 alt="Google Play"
-                class="w-auto h-16 md:h-20 xl:h-20" />
+                class="w-auto h-16 md:h-20" />
             </a>
             <a href="">
               <img
                 src="/Component/AppStore.png"
                 alt="App Store"
-                class="w-auto h-16 md:h-20 xl:h-20" />
+                class="w-auto h-16 md:h-20" />
             </a>
           </div>
         </div>
-
-        <!-- Right Section with Image -->
         <transition name="fade-left">
           <div
             v-if="showHeroImage"
-            class="w-full md:w-1/2 xl:w-1/2 md:flex xl:flex justify-end relative mb-8 md:mb-0 xl:mb-0">
+            class="md:w-1/2 w-full md:flex justify-end relative mb-8 md:mb-0">
             <img
               src="/Hero/Mockup_phone.png"
               alt="Hero Image" />
