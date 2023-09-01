@@ -11,18 +11,11 @@
           alt="Slide Image"
           class="w-full object-cover"
           :style="{ height: '440px' }" />
-        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-          {{ index + 1 }}
-        </div>
+        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center"></div>
       </div>
     </Slide>
 
     <!-- Hide navigation on medium screens and above -->
-    <template
-      #addons
-      class="md:hidden">
-      <Navigation />
-    </template>
   </Carousel>
 </template>
 
