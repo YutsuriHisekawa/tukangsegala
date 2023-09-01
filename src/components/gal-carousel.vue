@@ -1,0 +1,45 @@
+<template>
+  <Carousel
+    :items-to-show="2.5"
+    :wrap-around="true">
+    <Slide
+      v-for="(img, index) in images"
+      :key="index">
+      <div class="carousel__item relative">
+        <img
+          :src="img"
+          alt="Slide Image"
+          class="w-full object-cover"
+          :style="{ height: '700px' }" />
+        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+          {{ index + 1 }}
+        </div>
+      </div>
+    </Slide>
+
+    <template #addons>
+      <Navigation />
+    </template>
+  </Carousel>
+</template>
+
+<script>
+import { defineComponent } from 'vue';
+import { Carousel, Navigation, Slide } from 'vue3-carousel';
+
+import 'vue3-carousel/dist/carousel.css';
+
+export default defineComponent({
+  name: 'WrapAround',
+  components: {
+    Carousel,
+    Slide,
+    Navigation,
+  },
+  data() {
+    return {
+      images: ['/testi/1.png', '/testi/2.png', '/testi/3.png', '/testi/4.png'],
+    };
+  },
+});
+</script>

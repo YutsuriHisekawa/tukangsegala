@@ -3,6 +3,7 @@ import kaki from '../components/footer.vue';
 import atas from '../components/atas.vue';
 import lingkaran from '../components/icons/lingkaran.vue';
 import Card from '../components/card.vue';
+import testi from '../components/gal-carousel.vue';
 
 import { ref, onMounted } from 'vue';
 const showHeroImage = ref(false);
@@ -39,13 +40,13 @@ onMounted(() => {
           <div class="flex space-x-4 md:space-x-8 mt-5">
             <a href="">
               <img
-                src="../assets/Component/GooglePlay.png"
+                src="/Component/GooglePlay.png"
                 alt="Google Play"
                 class="w-auto h-16 md:h-20" />
             </a>
             <a href="">
               <img
-                src="../assets/Component/AppStore.png"
+                src="/Component/AppStore.png"
                 alt="App Store"
                 class="w-auto h-16 md:h-20" />
             </a>
@@ -56,7 +57,7 @@ onMounted(() => {
             v-if="showHeroImage"
             class="md:w-1/2 w-full md:flex justify-end relative mb-8 md:mb-0">
             <img
-              src="../assets/Hero/Mockup_phone.png"
+              src="/Hero/Mockup_phone.png"
               alt="Hero Image" />
           </div>
         </transition>
@@ -71,7 +72,7 @@ onMounted(() => {
       class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
       <div class="lg:col-span-5 lg:flex lg:items-center md:ml-0 ml-10">
         <img
-          src="../assets/Hero/Tukang_di_atas_genteng.png"
+          src="/Hero/Tukang_di_atas_genteng.png"
           alt="hero image"
           class="mx-auto w-full" />
       </div>
@@ -86,7 +87,7 @@ onMounted(() => {
           <div class="flex items-center mb-4 mt-10">
             <!-- Palu -->
             <img
-              src="../assets/Tukang_Segala_Icon/Tukang.png"
+              src="/Tukang_Segala_Icon/Tukang.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">
               Memiliki lebih dari 100+ tukang yang tersebar diseluruh Indonesia.
@@ -95,14 +96,14 @@ onMounted(() => {
           <div class="flex items-center mb-4">
             <!-- Group -->
             <img
-              src="../assets/Tukang_Segala_Icon/Pelayanan.png"
+              src="/Tukang_Segala_Icon/Pelayanan.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">Mengutamakan pelayanan dan kepuasan pelanggan.</p>
           </div>
           <div class="flex items-center mb-4">
             <!-- Jam -->
             <img
-              src="../assets/Tukang_Segala_Icon/Waktu.png"
+              src="/Tukang_Segala_Icon/Waktu.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">
               Menghemat waktu pelanggan dalam mencari tukang yang dibutuhkan.
@@ -111,7 +112,7 @@ onMounted(() => {
           <div class="flex items-center mb-4">
             <!-- Report -->
             <img
-              src="../assets/Tukang_Segala_Icon/sertifikasi.png"
+              src="/Tukang_Segala_Icon/sertifikasi.png"
               alt="Palu Icon" />
             <p class="ml-4 mr-0 fonthero">
               Seluruh tukang yang ada di tukangsegala.com telah memiliki sertifikasi keahlian.
@@ -129,22 +130,22 @@ onMounted(() => {
       <div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-4">
         <div>
           <img
-            src="../assets/Produk/Ac.png"
+            src="/Produk/Ac.png"
             alt="AC" />
         </div>
         <div>
           <img
-            src="../assets/Produk/Perpipaan.png"
+            src="/Produk/Perpipaan.png"
             alt="Perpipaan" />
         </div>
         <div>
           <img
-            src="../assets/Produk/Kelistrikan.png"
+            src="/Produk/Kelistrikan.png"
             alt="Kelistrikan" />
         </div>
         <div>
           <img
-            src="../assets/Produk/Kebocoran.png"
+            src="/Produk/Kebocoran.png"
             alt="Kebocoran" />
         </div>
       </div>
@@ -171,5 +172,14 @@ onMounted(() => {
       </div>
     </div>
   </section>
+
+  <section class="w-full bg-white md:rounded-t-[50%]">
+    <h1 class="fontabout text-black text-start pt-52 ml-10">
+      Ini kata Klien <span class="text-green-600">Klien Kami</span>
+    </h1>
+
+    <testi />
+  </section>
+
   <kaki></kaki>
 </template>

@@ -5,7 +5,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang_cat.png"
+        src="/Card/Tukang_cat.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -15,21 +15,21 @@
         <div class="flex justify-center mx-auto space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/grid.png"
+            src="/icon/grid.png"
             alt="Small Image 1" />
           <p class="card">Bangunan</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/peaplo.png"
+            src="/icon/peaplo.png"
             alt="Small Image 2" />
           <p class="card">200k+</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/star.png"
+            src="/icon/star.png"
             alt="Small Image 3" />
           <p class="card">4.9</p>
         </div>
@@ -44,7 +44,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang_Tamu.png"
+        src="/Card/Tukang_Tamu.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -54,21 +54,21 @@
         <div class="flex justify-center mx-auto space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/grid.png"
+            src="/icon/grid.png"
             alt="Small Image 1" />
           <p class="card">Interior</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/peaplo.png"
+            src="/icon/peaplo.png"
             alt="Small Image 2" />
           <p class="card">193k+</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/star.png"
+            src="/icon/star.png"
             alt="Small Image 3" />
           <p class="card">4.9</p>
         </div>
@@ -83,7 +83,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang_kebun.png"
+        src="/Card/Tukang_kebun.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -93,21 +93,21 @@
         <div class="flex justify-center mx-auto space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/grid.png"
+            src="/icon/grid.png"
             alt="Small Image 1" />
           <p class="card">Eksterior</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/peaplo.png"
+            src="/icon/peaplo.png"
             alt="Small Image 2" />
           <p class="card">190k+</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/star.png"
+            src="/icon/star.png"
             alt="Small Image 3" />
           <p class="card">4.9</p>
         </div>
@@ -122,7 +122,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang_Ngebor.png"
+        src="/Card/Tukang_Ngebor.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -132,21 +132,21 @@
         <div class="flex justify-center mx-auto space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/grid.png"
+            src="/icon/grid.png"
             alt="Small Image 1" />
           <p class="card">Bangunan</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/peaplo.png"
+            src="/icon/peaplo.png"
             alt="Small Image 2" />
           <p class="card">179k+</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/star.png"
+            src="/icon/star.png"
             alt="Small Image 3" />
           <p class="card">4.9</p>
         </div>
@@ -161,7 +161,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang_Arsitektur.png"
+        src="/Card/Tukang_Arsitektur.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -171,21 +171,21 @@
         <div class="flex justify-center mx-auto space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/grid.png"
+            src="/icon/grid.png"
             alt="Small Image 1" />
           <p class="card">Desain</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/peaplo.png"
+            src="/icon/peaplo.png"
             alt="Small Image 2" />
           <p class="card">200k+</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/star.png"
+            src="/icon/star.png"
             alt="Small Image 3" />
           <p class="card">4.9</p>
         </div>
@@ -200,7 +200,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="../assets/Card/Tukang_service.png"
+        src="/Card/Tukang_service.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -210,21 +210,21 @@
         <div class="flex justify-center mx-auto space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/grid.png"
+            src="/icon/grid.png"
             alt="Small Image 1" />
           <p class="card">Interior</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/peaplo.png"
+            src="/icon/peaplo.png"
             alt="Small Image 2" />
           <p class="card">160k+</p>
         </div>
         <div class="flex items-center space-x-2">
           <img
             class="object-cover"
-            src="../assets/icon/star.png"
+            src="/icon/star.png"
             alt="Small Image 3" />
           <p class="card">4.9</p>
         </div>
