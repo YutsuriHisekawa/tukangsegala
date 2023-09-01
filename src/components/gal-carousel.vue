@@ -1,27 +1,27 @@
 <template>
-  <Carousel
-    :items-to-show="itemsToShow"
-    :wrap-around="true">
-    <Slide
-      v-for="(img, index) in images"
-      :key="index">
-      <div class="carousel__item relative">
-        <img
-          :src="img"
-          alt="Slide Image"
-          class="w-full object-cover"
-          :style="{ height: '440px' }" />
-        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center"></div>
-      </div>
-    </Slide>
-
-    <!-- Hide navigation on medium screens and above -->
-  </Carousel>
+  <div class="relative">
+    <Carousel
+      :items-to-show="itemsToShow"
+      :autoplay="2000"
+      :wrap-around="true">
+      <Slide
+        v-for="(img, index) in images"
+        :key="index">
+        <div class="carousel__item relative">
+          <img
+            :src="img"
+            alt="Slide Image"
+            class="w-full object-cover"
+            :style="{ height: '440px' }" />
+        </div>
+      </Slide>
+    </Carousel>
+  </div>
 </template>
 
 <script>
 import { defineComponent, ref, onMounted } from 'vue';
-import { Carousel, Navigation, Slide } from 'vue3-carousel';
+import { Carousel, Slide } from 'vue3-carousel';
 
 import 'vue3-carousel/dist/carousel.css';
 
@@ -30,7 +30,6 @@ export default defineComponent({
   components: {
     Carousel,
     Slide,
-    Navigation,
   },
   setup() {
     const itemsToShow = ref(4); // default for large screens
