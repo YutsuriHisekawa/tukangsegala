@@ -159,7 +159,7 @@ onMounted(() => {
   </section>
 
   <!--Layanan-->
-  <section class="w-full bg-Toko-hijau rounded-t-[250px] md:rounded-t-[50%] mt-10">
+  <section class="w-full bg-Toko-hijau rounded-t-[250px] md:rounded-t-[20%] mt-10">
     <h1 class="fontabout text-white text-center pt-52 mb-5">Apa aja nih layanan paling populer?</h1>
     <p class="fonthero text-white text-center">
       Yuk, dicek koleksi tukang populer, favoritnya klien, dan penawaran terbaik kami di lokasimu!
