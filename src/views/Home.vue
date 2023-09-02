@@ -127,39 +127,85 @@ onMounted(() => {
   <section class="w-full">
     <h1 class="fontabout text-black text-center">Kategori layanan terbaik Kami</h1>
     <div class="flex items-center justify-center pt-10 pb-10">
-      <div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-4">
+      <div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-4 p-4">
         <div>
           <img
             src="/Produk/Ac.png"
-            alt="AC" />
+            alt="AC"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
         </div>
         <div>
           <img
-            src="/Produk/Perpipaan.png"
-            alt="Perpipaan" />
+            src="/Produk/Pijat.png"
+            alt="Pijat "
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
         </div>
         <div>
           <img
             src="/Produk/Kelistrikan.png"
-            alt="Kelistrikan" />
+            alt="Kelistrikan"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
         </div>
         <div>
           <img
             src="/Produk/Kebocoran.png"
-            alt="Kebocoran" />
+            alt="Kebocoran"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Keramik.png"
+            alt="Keramik"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Cor.png"
+            alt="Cor"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Kebun.png"
+            alt="Kebun"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Cat.png"
+            alt="Cat"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Kunci.png"
+            alt="Kunci"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Mesincuci.png"
+            alt="Kebocoran"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Kayu.png"
+            alt="Kebocoran"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+        </div>
+        <div>
+          <img
+            src="/Produk/Lainya.png"
+            alt="Kebocoran"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
         </div>
       </div>
-    </div>
-    <div class="flex justify-center md:mt-5 mt-0 p-10 md:p-16">
-      <button
-        class="bg-Toko-hijau text-white py-2 px-5 rounded-full hover:bg-green-600 transition duration-300 fonthero">
-        Tampilkan semua kategori
-      </button>
     </div>
   </section>
 
   <!--Layanan-->
-  <section class="w-full bg-Toko-hijau rounded-t-[250px] md:rounded-t-[20%] mt-10">
+  <section class="w-full bg-Toko-hijau rounded-t-[80px] md:rounded-t-[15%] mt-5 md:mt-10">
     <h1 class="fontabout text-white text-center pt-52 mb-5">Apa aja nih layanan paling populer?</h1>
     <p class="fonthero text-white text-center">
       Yuk, dicek koleksi tukang populer, favoritnya klien, dan penawaran terbaik kami di lokasimu!
@@ -173,13 +219,15 @@ onMounted(() => {
     </div>
   </section>
 
-  <section class="w-full bg-white md:rounded-t-[50%]">
-    <h1 class="fontabout text-black text-start pt-52 ml-10">
+  <section class="w-full bg-white">
+    <h1 class="fontabout text-black text-start pt-20 ml-10">
       Ini kata Klien <span class="text-green-600">Klien Kami</span>
     </h1>
 
     <testi />
   </section>
+
+  <div class="h-[500px]"></div>
 
   <kaki></kaki>
 </template>

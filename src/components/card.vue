@@ -1,7 +1,8 @@
 <template>
   <!--1-->
   <div>
-    <div class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white">
+    <div
+      class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
       <!-- Gambar Utama -->
       <img
         class="w-full"
@@ -40,7 +41,8 @@
 
   <!--2-->
   <div>
-    <div class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white">
+    <div
+      class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
       <!-- Gambar Utama -->
       <img
         class="w-full"
@@ -79,7 +81,8 @@
 
   <!--3-->
   <div>
-    <div class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white">
+    <div
+      class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
       <!-- Gambar Utama -->
       <img
         class="w-full"
@@ -118,7 +121,8 @@
 
   <!--4-->
   <div>
-    <div class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white">
+    <div
+      class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
       <!-- Gambar Utama -->
       <img
         class="w-full"
@@ -157,7 +161,8 @@
 
   <!--5-->
   <div>
-    <div class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white">
+    <div
+      class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
       <!-- Gambar Utama -->
       <img
         class="w-full"
@@ -196,7 +201,8 @@
 
   <!--6-->
   <div>
-    <div class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white">
+    <div
+      class="mt-4 rounded-3xl overflow-hidden shadow-lg w-96 bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
       <!-- Gambar Utama -->
       <img
         class="w-full"

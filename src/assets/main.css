@@ -81,3 +81,20 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+.footertext {
+
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.footertext-p1{
+  font-family: Poppins;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

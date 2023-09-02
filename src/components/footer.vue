@@ -1,6 +1,36 @@
 <template>
-  <footer class="bg-Toko-hijau">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+  <footer class="bg-Toko-hijau relative">
+    <!-- BAGIAN UTAMA -->
+    <div class="flex items-center justify-center h-[300px] z-10">
+      <div class="container mx-auto md:p-0 p-4 mb-10 mt-[-250px]">
+        <!-- Ini adalah bagian container untuk teks dan gambar -->
+        <div
+          class="bg-gray-50 mx-auto flex flex-col md:flex-row items-center w-full h-[550px] rounded-3xl shadow-2xl !px-4">
+          <!-- Ini adalah bagian tulisan -->
+          <div class="w-full md:w-1/2 p-4">
+            <h1 class="text-xl font-bold mb-2 footertext">
+              Gak perlu repot lagi untuk <span class="text-green-600">cari tukang</span>, sekarang
+              kamu tinggal buka hp saja
+            </h1>
+            <p class="footertext-p1">
+              Nikmati banyak pilihan tukang, promo, dan fitur eksklusif <br />di
+              <span class="text-green-600">tukangsegala.com</span>
+            </p>
+          </div>
+
+          <!-- Ini adalah bagian gambar (ditambahkan kelas hidden pada mode kecil) -->
+          <div class="w-full md:w-1/2 flex justify-center items-center">
+            <img
+              src="/Hero/HP.png"
+              alt="Deskripsi Gambar"
+              class="rounded-3xl object-cover max-h-full max-w-full mb-10 md:block hidden" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END BAGIAN UTAMA -->
+    <!--BAGIAN KAKI -->
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-28">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <a

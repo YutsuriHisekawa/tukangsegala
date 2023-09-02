@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'hd': '1366px',
+        'fhd':'1080px'
+      },
        zIndex: {
         '-1': '-1',
       },  
