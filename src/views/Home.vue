@@ -55,7 +55,7 @@ onMounted(() => {
         <transition name="fade-left">
           <div
             v-if="showHeroImage"
-            class="md:w-1/2 w-full md:flex justify-end relative mb-8 md:mb-0">
+            class="md:w-1/2 w-full md:flex justify-end relative mb-8 md:mb-0 hidden">
             <img
               src="/Hero/Mockup_phone.png"
               alt="Hero Image" />
@@ -74,7 +74,7 @@ onMounted(() => {
         <img
           src="/Hero/Tukang_di_atas_genteng.png"
           alt="hero image"
-          class="mx-auto w-full" />
+          class="mx-auto w-full md:block hidden" />
       </div>
 
       <div class="lg:col-span-7 lg:pl-8">
@@ -220,7 +220,7 @@ onMounted(() => {
   </section>
 
   <section class="w-full bg-white">
-    <h1 class="fontabout text-black text-start pt-20 ml-10">
+    <h1 class="fontabout text-black text-center pt-20 ml-10 md:text-start">
       Ini kata Klien <span class="text-green-600">Klien Kami</span>
     </h1>
 
