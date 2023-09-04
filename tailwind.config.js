@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/Hero/BG_landing awal.png')",
+      }),
       screens: {
         'hd': '1366px',
         'fhd':'1080px'

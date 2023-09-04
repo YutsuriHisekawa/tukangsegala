@@ -16,7 +16,7 @@ onMounted(() => {
 
 <template>
   <atas />
-  <main class="pt-0 md:pt-0">
+  <main class="pt-0 md:pt-16">
     <section
       class="flex items-center justify-center md:flex-row bg-Toko-hijau md:h-screen h-fit w-auto">
       <div class="container mx-auto flex mt-16 items-center flex-col md:flex-row">
