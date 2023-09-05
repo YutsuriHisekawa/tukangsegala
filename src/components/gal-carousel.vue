@@ -4,7 +4,8 @@
     :wrap-around="true">
     <Slide
       v-for="(img, index) in images"
-      :key="index">
+      :key="index"
+      class="mr-4 last:mr-0">
       <div class="carousel__item relative mb-10">
         <img
           :src="img"
@@ -40,6 +41,7 @@ export default defineComponent({
       if (window.innerWidth < 640) itemsToShow.value = 1; // sm
       else if (window.innerWidth < 768) itemsToShow.value = 2; // md
       else if (window.innerWidth < 1024) itemsToShow.value = 3; // lg
+      else if (window.innerWidth < 1080) itemsToShow.value = 3; // lg
     });
 
     return {

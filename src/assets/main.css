@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
 
 .fade-left-enter-active,
 .fade-left-leave-active {
@@ -32,8 +34,15 @@
 }
 /** */
 
+.sans3{
+font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
 .fontabout {
-font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 50px;
 font-style: normal;
 font-weight: 600;
@@ -41,7 +50,8 @@ line-height: normal;
 }
 
 .fontlogo {
-font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 22px;
 font-style: normal;
 font-weight: 500;
@@ -50,7 +60,8 @@ line-height: normal;
 
 .fontbar {
 
-font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
@@ -58,7 +69,8 @@ line-height: normal;
 }
 
 .hero {
-font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 60px;
 font-style: normal;
 font-weight: 600;
@@ -66,7 +78,8 @@ line-height: normal;
 }
 
 .fonthero{
-font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 25px;
 font-style: normal;
 font-weight: 500;
@@ -75,7 +88,8 @@ line-height: normal;
 
 .card {
 
-font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 15px;
 font-style: normal;
 font-weight: 500;
@@ -84,7 +98,8 @@ line-height: normal;
 
 .footertext {
 
-font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 40px;
 font-style: normal;
 font-weight: 600;
@@ -92,9 +107,19 @@ line-height: normal;
 }
 
 .footertext-p1{
-  font-family: Poppins;
+font-family: 'Source Sans 3', sans-serif;
+
 font-size: 27px;
 font-style: normal;
 font-weight: 400;
+line-height: normal;
+}
+
+.keuntungan {
+
+font-family: Source Sans 3;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
 line-height: normal;
 }

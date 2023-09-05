@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: theme => ({
         'hero': "url('/Hero/BG_landing awal.png')",
+        'layanan': "url('/Background/Bg_layanan.png')",
       }),
       screens: {
         'hd': '1366px',
@@ -21,6 +22,7 @@ export default {
       },
        fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
+        sans3: ['Source Sans 3']
       },
       keyframes: {
         smoothBounce: {

@@ -21,7 +21,7 @@ onMounted(() => {
   <div
     class="bg-white fixed top-0 w-full p-4 z-50 shadow-2xl md:shadow-lg transition-colors duration-300">
     <div class="container mx-auto flex items-center justify-between font-Poppins">
-      <div class="flex items-center">
+      <div class="flex items-center z-50">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
