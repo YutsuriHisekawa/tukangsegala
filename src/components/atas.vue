@@ -50,29 +50,37 @@ onMounted(() => {
         </router-link>
 
         <router-link
-          to="/about"
+          to="/LayananKami"
           class="fontbar"
           active-class="active-link"
           :class="[
-            $route.path === '/about' ? (isTop ? 'text-green-500' : 'text-green-500') : 'text-black',
+            $route.path === '/LayananKami'
+              ? isTop
+                ? 'text-green-500'
+                : 'text-green-500'
+              : 'text-black',
           ]">
           Layanan Kami
         </router-link>
         <router-link
-          to="/about"
+          to="/TentangKami"
           class="fontbar"
           active-class="active-link"
           :class="[
-            $route.path === '#' ? (isTop ? 'text-green-500' : 'text-green-500') : 'text-black',
+            $route.path === '/TentangKami'
+              ? isTop
+                ? 'text-green-500'
+                : 'text-green-500'
+              : 'text-black',
           ]">
           Tentang Kami
         </router-link>
         <router-link
-          to="/about"
+          to="/Blog"
           class="fontbar"
           active-class="active-link"
           :class="[
-            $route.path === '#' ? (isTop ? 'text-green-500' : 'text-green-500') : 'text-black',
+            $route.path === '/Blog' ? (isTop ? 'text-green-500' : 'text-green-500') : 'text-black',
           ]">
           Blog
         </router-link>
@@ -97,7 +105,7 @@ onMounted(() => {
     </div>
     <div
       v-if="isOpen"
-      class="md:hidden mt-8 space-y-2 z-999">
+      class="md:hidden mt-8 space-y-2 z-[9999]">
       <router-link
         to="/"
         class="block fontbar duration-300"
@@ -107,25 +115,29 @@ onMounted(() => {
       </router-link>
 
       <router-link
-        to="/about"
+        to="/LayananKami"
         class="block fontbar duration-300"
         active-class="text-green-500"
         :class="[isTop ? 'text-black' : 'text-black']">
         Layanan Kami
       </router-link>
 
-      <a
-        href="#"
-        class="block text-black fontbar"
-        :class="['duration-300', isTop ? 'text-black' : 'text-black']"
-        >Tentang Kami</a
-      >
-      <a
-        href="#"
-        class="block text-black fontbar"
-        :class="['duration-300', isTop ? 'text-black' : 'text-black']"
-        >Blog</a
-      >
+      <router-link
+        to="/TentangKami"
+        class="block fontbar duration-300"
+        active-class="text-green-500"
+        :class="[isTop ? 'text-black' : 'text-black']">
+        Tentang Kami
+      </router-link>
+
+      <router-link
+        to="/Blog"
+        class="block fontbar duration-300"
+        active-class="text-green-500"
+        :class="[isTop ? 'text-black' : 'text-black']">
+        Blog
+      </router-link>
+
       <button
         class="text-white bg-green-500 rounded-xl px-4 py-2 w-full hover:text-white hover:bg-green-600 duration-300 fontbar">
         Hubungi Kami

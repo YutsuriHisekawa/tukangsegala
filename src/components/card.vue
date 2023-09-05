@@ -6,7 +6,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="/Card/Tukang_cat.png"
+        src="/Card/Tukang_AC.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -35,7 +35,7 @@
           <p class="card">4.9</p>
         </div>
       </div>
-      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Tukang Cat</h1>
+      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Tukang AC</h1>
     </div>
   </div>
 
@@ -46,7 +46,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="/Card/Tukang_Tamu.png"
+        src="/Card/Tukang_Pijat.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -75,7 +75,7 @@
           <p class="card">4.9</p>
         </div>
       </div>
-      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Dekorasi Ruangan</h1>
+      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Tukang Pijat</h1>
     </div>
   </div>
 
@@ -86,7 +86,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="/Card/Tukang_kebun.png"
+        src="/Card/Tukang_cat.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -115,7 +115,7 @@
           <p class="card">4.9</p>
         </div>
       </div>
-      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Dekorasi Taman</h1>
+      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Tukang Cat</h1>
     </div>
   </div>
 
@@ -126,7 +126,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="/Card/Tukang_Ngebor.png"
+        src="/Card/Tukang_Listrik.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -155,7 +155,7 @@
           <p class="card">4.9</p>
         </div>
       </div>
-      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Renovasi Rumah</h1>
+      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Tukang Listrik</h1>
     </div>
   </div>
 
@@ -166,7 +166,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="/Card/Tukang_Arsitektur.png"
+        src="/Card/Tukang_Pipa.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -195,7 +195,7 @@
           <p class="card">4.9</p>
         </div>
       </div>
-      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Arsitektur</h1>
+      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Tukang Pipa</h1>
     </div>
   </div>
 
@@ -206,7 +206,7 @@
       <!-- Gambar Utama -->
       <img
         class="w-full"
-        src="/Card/Tukang_service.png"
+        src="/Card/Tukang_Atap.png"
         alt="Main Image" />
 
       <!-- Judul Tukang Cat -->
@@ -235,7 +235,7 @@
           <p class="card">4.9</p>
         </div>
       </div>
-      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Dekorasi Dapur</h1>
+      <h1 class="ml-5 mb-5 mt-5 text-start text-3xl font-bold py-2">Kebocoran Atap</h1>
     </div>
   </div>
 </template>

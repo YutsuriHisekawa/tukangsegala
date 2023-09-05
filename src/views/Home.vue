@@ -63,171 +63,172 @@ onMounted(() => {
         </transition>
       </div>
     </section>
+    <!--Kenapa Toko Tukang ?-->
+
+    <section class="bg-white">
+      <div
+        class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+        <div class="lg:col-span-5 lg:flex lg:items-center md:ml-0 ml-10">
+          <img
+            src="/Hero/Tukang_di_atas_genteng.png"
+            alt="hero image"
+            class="mx-auto w-full md:block hidden" />
+        </div>
+
+        <div class="lg:col-span-7 lg:pl-8">
+          <h1
+            class="text-center md:text-start max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl">
+            Kenapa pesan di <span class="text-green-500">tukangsegala.com </span>?
+          </h1>
+
+          <div class="flex flex-col items-start">
+            <div class="flex items-center mb-4 mt-10">
+              <!-- Palu -->
+              <img
+                src="/Tukang_Segala_Icon/Tukang.png"
+                alt="Palu Icon" />
+              <p class="ml-4 mr-0 fonthero">
+                Memiliki lebih dari 100+ tukang yang tersebar diseluruh Indonesia.
+              </p>
+            </div>
+            <div class="flex items-center mb-4">
+              <!-- Group -->
+              <img
+                src="/Tukang_Segala_Icon/Pelayanan.png"
+                alt="Palu Icon" />
+              <p class="ml-4 mr-0 fonthero">Mengutamakan pelayanan dan kepuasan pelanggan.</p>
+            </div>
+            <div class="flex items-center mb-4">
+              <!-- Jam -->
+              <img
+                src="/Tukang_Segala_Icon/Waktu.png"
+                alt="Palu Icon" />
+              <p class="ml-4 mr-0 fonthero">
+                Menghemat waktu pelanggan dalam mencari tukang yang dibutuhkan.
+              </p>
+            </div>
+            <div class="flex items-center mb-4">
+              <!-- Report -->
+              <img
+                src="/Tukang_Segala_Icon/sertifikasi.png"
+                alt="Palu Icon" />
+              <p class="ml-4 mr-0 fonthero">
+                Seluruh tukang yang ada di tukangsegala.com telah memiliki sertifikasi keahlian.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KATEGORI -->
+    <section class="w-full">
+      <h1 class="fontabout text-black text-center">Kategori layanan terbaik Kami</h1>
+      <div class="flex items-center justify-center pt-10 pb-10">
+        <div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-4 p-4">
+          <div>
+            <img
+              src="/Produk/Ac.png"
+              alt="AC"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Pijat.png"
+              alt="Pijat "
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Kelistrikan.png"
+              alt="Kelistrikan"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Kebocoran.png"
+              alt="Kebocoran"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Keramik.png"
+              alt="Keramik"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Cor.png"
+              alt="Cor"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Kebun.png"
+              alt="Kebun"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Cat.png"
+              alt="Cat"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Kunci.png"
+              alt="Kunci"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Mesincuci.png"
+              alt="Kebocoran"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Kayu.png"
+              alt="Kebocoran"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+          <div>
+            <img
+              src="/Produk/Lainya.png"
+              alt="Kebocoran"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Layanan-->
+    <section class="w-full bg-Toko-hijau rounded-t-[80px] md:rounded-t-[15%] mt-5 md:mt-10">
+      <h1 class="fontabout text-white text-center pt-52 mb-5">
+        Apa aja nih layanan paling populer?
+      </h1>
+      <p class="fonthero text-white text-center">
+        Yuk, dicek koleksi tukang populer, favoritnya klien, dan penawaran terbaik kami di lokasimu!
+      </p>
+      <div class="flex items-center justify-center pt-10 pb-10">
+        <div class="grid gap-x-8 gap-y-4 grid-cols-1 md:grid-cols-3">
+          <!--Card-->
+          <Card />
+          <!--End Card-->
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bg-white">
+      <h1 class="fontabout text-black text-center pt-20 ml-10 md:text-start">
+        Ini kata Klien <span class="text-green-600">Klien Kami</span>
+      </h1>
+
+      <testi />
+    </section>
+    <!--Footer-->
+    <div class="pt-96 mt-0">
+      <kaki></kaki>
+    </div>
   </main>
-
-  <!--Kenapa Toko Tukang ?-->
-
-  <section class="bg-white">
-    <div
-      class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-      <div class="lg:col-span-5 lg:flex lg:items-center md:ml-0 ml-10">
-        <img
-          src="/Hero/Tukang_di_atas_genteng.png"
-          alt="hero image"
-          class="mx-auto w-full md:block hidden" />
-      </div>
-
-      <div class="lg:col-span-7 lg:pl-8">
-        <h1
-          class="text-center md:text-start max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl">
-          Kenapa pesan di <span class="text-green-500">tukangsegala.com ?</span>
-        </h1>
-
-        <div class="flex flex-col items-start">
-          <div class="flex items-center mb-4 mt-10">
-            <!-- Palu -->
-            <img
-              src="/Tukang_Segala_Icon/Tukang.png"
-              alt="Palu Icon" />
-            <p class="ml-4 mr-0 fonthero">
-              Memiliki lebih dari 100+ tukang yang tersebar diseluruh Indonesia.
-            </p>
-          </div>
-          <div class="flex items-center mb-4">
-            <!-- Group -->
-            <img
-              src="/Tukang_Segala_Icon/Pelayanan.png"
-              alt="Palu Icon" />
-            <p class="ml-4 mr-0 fonthero">Mengutamakan pelayanan dan kepuasan pelanggan.</p>
-          </div>
-          <div class="flex items-center mb-4">
-            <!-- Jam -->
-            <img
-              src="/Tukang_Segala_Icon/Waktu.png"
-              alt="Palu Icon" />
-            <p class="ml-4 mr-0 fonthero">
-              Menghemat waktu pelanggan dalam mencari tukang yang dibutuhkan.
-            </p>
-          </div>
-          <div class="flex items-center mb-4">
-            <!-- Report -->
-            <img
-              src="/Tukang_Segala_Icon/sertifikasi.png"
-              alt="Palu Icon" />
-            <p class="ml-4 mr-0 fonthero">
-              Seluruh tukang yang ada di tukangsegala.com telah memiliki sertifikasi keahlian.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- KATEGORI -->
-  <section class="w-full">
-    <h1 class="fontabout text-black text-center">Kategori layanan terbaik Kami</h1>
-    <div class="flex items-center justify-center pt-10 pb-10">
-      <div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-4 p-4">
-        <div>
-          <img
-            src="/Produk/Ac.png"
-            alt="AC"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Pijat.png"
-            alt="Pijat "
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Kelistrikan.png"
-            alt="Kelistrikan"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Kebocoran.png"
-            alt="Kebocoran"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Keramik.png"
-            alt="Keramik"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Cor.png"
-            alt="Cor"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Kebun.png"
-            alt="Kebun"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Cat.png"
-            alt="Cat"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Kunci.png"
-            alt="Kunci"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Mesincuci.png"
-            alt="Kebocoran"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Kayu.png"
-            alt="Kebocoran"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-        <div>
-          <img
-            src="/Produk/Lainya.png"
-            alt="Kebocoran"
-            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Layanan-->
-  <section class="w-full bg-Toko-hijau rounded-t-[80px] md:rounded-t-[15%] mt-5 md:mt-10">
-    <h1 class="fontabout text-white text-center pt-52 mb-5">Apa aja nih layanan paling populer?</h1>
-    <p class="fonthero text-white text-center">
-      Yuk, dicek koleksi tukang populer, favoritnya klien, dan penawaran terbaik kami di lokasimu!
-    </p>
-    <div class="flex items-center justify-center pt-10 pb-10">
-      <div class="grid gap-x-8 gap-y-4 grid-cols-1 md:grid-cols-3">
-        <!--Card-->
-        <Card />
-        <!--End Card-->
-      </div>
-    </div>
-  </section>
-
-  <section class="w-full bg-white">
-    <h1 class="fontabout text-black text-center pt-20 ml-10 md:text-start">
-      Ini kata Klien <span class="text-green-600">Klien Kami</span>
-    </h1>
-
-    <testi />
-  </section>
-
-  <div class="h-[500px]"></div>
-
-  <kaki></kaki>
 </template>
