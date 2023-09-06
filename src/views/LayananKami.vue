@@ -3,6 +3,7 @@ import kaki from '../components/footer1.vue';
 import atas from '../components/atas.vue';
 import lingkaran from '../components/icons/lingkaran.vue';
 import Card from '../components/card1.vue';
+import Keuntungan from '../components/card2.vue';
 import testi from '../components/gal-carousel.vue';
 
 import { ref, onMounted } from 'vue';
@@ -61,27 +62,21 @@ onMounted(() => {
     <!--END APA AJA NIH-->
     <!-- KEUNTUNGAN -->
     <section class="w-full bg-layanan bg-cover bg-white">
-      <div class="container mx-auto w-full h-full flex flex-col md:flex-row items-start">
-        <!-- Ubah `items-center` menjadi `items-start` -->
-
+      <div class="container mx-auto w-full h-full flex flex-col md:flex-row items-start px-4 py-8">
         <!-- Sisi Kiri: Teks -->
-        <div class="md:w-1/2 w-full flex flex-col items-start mt-10">
-          <h1 class="!text-8xl md:text-4xl mb-4 text-black keuntungan">
+        <div class="flex flex-col items-center w-full mt-5 md:mt-10 mb-5 md:mb-10">
+          <h1 class="text-4xl md:!text-8xl mb-4 text-black text-center sans3">
             Keuntungan apa yang kamu dapatkan?
           </h1>
-          <!-- Anda dapat menambahkan teks atau poin lainnya di sini -->
         </div>
-
-        <!-- Sisi Kanan: Gambar -->
       </div>
-      <div
-        class="relative md:w-full w-full items-center justify-end right-0 left-0 md:top-[-300px] hidden md:flex">
-        <img
-          src="/Hero/Layanan.png"
-          alt="Keuntungan Layanan Image"
-          class="md:w-1/2 w-full h-auto" />
+
+      <!-- CARD TEXT KEUNTUNGAN -->
+      <div class="px-4 py-8 md:p-28">
+        <Keuntungan />
       </div>
     </section>
+
     <!--END KEUNTUNGAN -->
     <kaki />
   </main>

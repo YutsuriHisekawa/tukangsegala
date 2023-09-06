@@ -87,16 +87,14 @@ onMounted(() => {
               <img
                 src="/Tukang_Segala_Icon/Tukang.png"
                 alt="Palu Icon" />
-              <p class="ml-4 mr-0 fonthero">
-                Memiliki lebih dari 100+ tukang yang tersebar diseluruh Indonesia.
-              </p>
+              <p class="ml-4 mr-0 fonthero">Tukang Bersertifikasi</p>
             </div>
             <div class="flex items-center mb-4">
               <!-- Group -->
               <img
                 src="/Tukang_Segala_Icon/Pelayanan.png"
                 alt="Palu Icon" />
-              <p class="ml-4 mr-0 fonthero">Mengutamakan pelayanan dan kepuasan pelanggan.</p>
+              <p class="ml-4 mr-0 fonthero">Pembayaran Sekali Bayar untuk semua pekerjaan</p>
             </div>
             <div class="flex items-center mb-4">
               <!-- Jam -->
@@ -104,18 +102,18 @@ onMounted(() => {
                 src="/Tukang_Segala_Icon/Waktu.png"
                 alt="Palu Icon" />
               <p class="ml-4 mr-0 fonthero">
-                Menghemat waktu pelanggan dalam mencari tukang yang dibutuhkan.
+                Same-day Service ( Pesan hari ini , datang hari ini juga)
               </p>
             </div>
-            <div class="flex items-center mb-4">
-              <!-- Report -->
+            <!--             <div class="flex items-center mb-4">
+
               <img
                 src="/Tukang_Segala_Icon/sertifikasi.png"
                 alt="Palu Icon" />
               <p class="ml-4 mr-0 fonthero">
                 Seluruh tukang yang ada di tukangsegala.com telah memiliki sertifikasi keahlian.
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
