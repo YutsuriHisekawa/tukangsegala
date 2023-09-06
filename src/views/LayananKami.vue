@@ -19,26 +19,27 @@ onMounted(() => {
 
   <main class="pt-0 md:pt-10 bg-Toko-hijau relative z-40">
     <!--HERO-->
-
-    <section class="flex items-center md:h-screen h-fit w-auto">
-      <div
-        class="container mx-auto flex mt-16 items-center flex-col md:flex-row relative md:z-[99] z-99 p-5 md:p-0">
-        <!-- Bagian Teks di Sisi Kiri -->
-        <div class="md:w-1/2 w-full mb-4 md:mb-0 p-4">
-          <h1 class="text-lg md:text-6xl mb-4 text-white hue-rotate-0 hero md:z-10 z-10">
-            Kami menyediakan berbagai tukang untuk masalahmu.
-          </h1>
+    <div class="bg-hero_layanan">
+      <section class="flex items-center md:h-screen h-fit w-auto">
+        <div
+          class="container mx-auto flex mt-16 items-center flex-col md:flex-row relative md:z-[99] z-99 p-5 md:p-0">
+          <!-- Bagian Teks di Sisi Kiri -->
+          <div class="md:w-1/2 w-full mb-4 md:mb-0 p-4">
+            <h1 class="text-lg md:text-6xl mb-4 text-white hue-rotate-0 hero md:z-10 z-10">
+              Kami menyediakan berbagai tukang untuk masalahmu.
+            </h1>
+          </div>
         </div>
+      </section>
+      <!-- Bagian Gambar di Sisi Kanan Pojok Kanan Atas -->
+      <div class="absolute top-11 pt-5 left-0 md:w-full hidden md:flex justify-end z-[1]">
+        <img
+          src="/Hero/Sip.png"
+          alt="Hero Image"
+          class="w-[1200px]" />
       </div>
-    </section>
-    <!-- Bagian Gambar di Sisi Kanan Pojok Kanan Atas -->
-    <div class="absolute top-11 pt-5 left-0 md:w-full hidden md:flex justify-end z-[1]">
-      <img
-        src="/Hero/Sip.png"
-        alt="Hero Image"
-        class="w-[1200px]" />
+      <!--END HERO-->
     </div>
-    <!--END HERO-->
 
     <!-- APA AJA NIH -->
 

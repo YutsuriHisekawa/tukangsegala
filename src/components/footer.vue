@@ -154,7 +154,7 @@
           <a
             href="#"
             class="hover:underline text-gray-500 font-bold"
-            >© 2023 Quantum Leap.</a
+            >Copyright© 2023 Quantum Leap.</a
           >
           All Rights Reserved.
         </span>

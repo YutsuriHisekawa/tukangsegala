@@ -8,6 +8,8 @@ export default {
     extend: {
       backgroundImage: theme => ({
         'hero': "url('/Hero/BG_landing awal.png')",
+        'hero_layanan': "url('/Hero/BG_Layanan.png')",
+        'hero_tentangkami': "url('/Hero/Bor_lantai.png')",
         'layanan': "url('/Background/Bg_layanan.png')",
       }),
       screens: {
