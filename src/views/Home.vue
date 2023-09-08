@@ -123,7 +123,7 @@ onMounted(() => {
     <section class="w-full">
       <h1 class="fontabout text-black text-center">Kategori layanan terbaik Kami</h1>
       <div class="flex items-center justify-center pt-10 pb-10">
-        <div class="grid gap-x-8 gap-y-4 grid-cols-2 md:grid-cols-4 p-4">
+        <div class="grid gap-x-8 gap-y-9 grid-cols-2 md:grid-cols-4 p-4">
           <div>
             <img
               src="/Produk/Ac.png"
@@ -201,8 +201,8 @@ onMounted(() => {
     </section>
 
     <!--Layanan-->
-    <section class="w-full bg-Toko-hijau rounded-t-[80px] md:rounded-t-[15%] mt-5 md:mt-10">
-      <h1 class="fontabout text-white text-center pt-52 mb-5">
+    <section class="w-full mt-5 md:mt-10">
+      <h1 class="fontabout text-black text-center pt-52 mb-5">
         Apa aja nih layanan paling populer?
       </h1>
       <p class="fonthero text-white text-center">
@@ -218,8 +218,8 @@ onMounted(() => {
     </section>
 
     <section class="w-full bg-white">
-      <h1 class="fontabout text-black text-center pt-20 ml-10 md:text-start">
-        Ini kata Klien <span class="text-green-600">Klien Kami</span>
+      <h1 class="fontabout text-black text-center pt-20 ml-10">
+        Ini kata <span class="text-green-600"> Mereka</span>
       </h1>
 
       <testi />

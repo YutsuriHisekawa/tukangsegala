@@ -1,10 +1,8 @@
 <script setup>
 import kaki from '../components/footer1.vue';
 import atas from '../components/atas.vue';
-import lingkaran from '../components/icons/lingkaran.vue';
-import Card from '../components/card1.vue';
-import Keuntungan from '../components/card2.vue';
-import testi from '../components/gal-carousel.vue';
+import card from '../components/cardmakna.vue';
+import marquee from '../components/marquee.vue';
 
 import { ref, onMounted } from 'vue';
 const showHeroImage = ref(false);
@@ -38,9 +36,9 @@ onMounted(() => {
       <div class="container mx-auto px-4 py-8">
         <div class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">
           <!-- Sisi Kiri: Teks -->
-          <div class="md:w-1/2">
-            <h2 class="mb-4 sans3 text-3xl font-semibold">tukangsegala.com</h2>
-            <p class="sans3 text-lg text-black font-normal text-start">
+          <div class="md:w-full">
+            <h2 class="mb-4 sans3 text-3xl md:text-7xl font-semibold">tukangsegala.com</h2>
+            <p class="sans3 text-lg md:text-3xl text-black font-normal text-start">
               tukangsegala.com merupakan Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
               convallis sed sapien vel lobortis. Orci varius natoque penatibus et magnis dis
               parturient montes, nascetur ridiculus mus. Sed placerat augue ut dapibus feugiat.
@@ -134,7 +132,13 @@ onMounted(() => {
         </p>
       </div>
     </section>
-
+    <!-- MAKNA BAGI KAMI -->
+    <card />
+    <!-- END MAKNA-->
+    <!--MARQUEE-->
+    <marquee />
+    <!--END MARQUEE-->
+    <carousel />
     <kaki />
   </main>
 </template>

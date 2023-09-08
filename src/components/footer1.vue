@@ -110,11 +110,11 @@
     <!-- Bagian footer bawah dengan full width -->
     <div class="bg-white shadow m-0">
       <div
-        class="px-4 py-6 md:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between">
+        class="px-10 py-6 md:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between">
         <span class="text-sm md:text-2xl text-gray-400 mb-4 sm:text-center md:mb-0">
           <a
             href="#"
-            class="hover:underline text-gray-500 font-bold"
+            class="hover:underline text-gray-500 font-bold ml-6"
             >Copyright© 2023 Quantum Leap.</a
           >
           All Rights Reserved.

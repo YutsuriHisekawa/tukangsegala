@@ -19,7 +19,7 @@ onMounted(() => {
 
   <main class="pt-0 md:pt-10 bg-Toko-hijau relative z-40">
     <!--HERO-->
-    <div class="bg-hero_layanan">
+    <div class="bg-hero_layanan bg-cover">
       <section class="flex items-center md:h-screen h-fit w-auto">
         <div
           class="container mx-auto flex mt-16 items-center flex-col md:flex-row relative md:z-[99] z-99 p-5 md:p-0">
@@ -43,7 +43,7 @@ onMounted(() => {
 
     <!-- APA AJA NIH -->
 
-    <section class="w-full bg-white rounded-t-[80px] md:rounded-t-[15%] mt-5">
+    <section class="w-full bg-white rounded-t-[80px] md:rounded-t-[15%]">
       <h1 class="fontabout text-black text-center md:pt-20 pt-10 mb-5">
         Apa aja nih layanan paling populer?
       </h1>
@@ -66,7 +66,7 @@ onMounted(() => {
       <div class="container mx-auto w-full h-full flex flex-col md:flex-row items-start px-4 py-8">
         <!-- Sisi Kiri: Teks -->
         <div class="flex flex-col items-center w-full mt-5 md:mt-10 mb-5 md:mb-10">
-          <h1 class="text-4xl md:!text-8xl mb-4 text-black text-center sans3">
+          <h1 class="text-4xl md:text-7xl mb-4 font-semibold text-black text-center sans3">
             Keuntungan apa yang kamu dapatkan?
           </h1>
         </div>
