@@ -62,7 +62,7 @@
           </svg>
           <span class="sans3 text-2xl font-semibold"> Tukang Massage</span>
         </button>
-        <!-- Button AC -->
+        <!-- Button HOME CLEANING -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -74,10 +74,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang AC</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Home Cleaning</span>
         </button>
 
-        <!-- Button Listrik -->
+        <!-- Button Service -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -89,10 +89,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Listrik</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Service Gadget</span>
         </button>
 
-        <!-- Button Pipa -->
+        <!-- Button Kunci -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -104,10 +104,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Pipa</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Kunci </span>
         </button>
 
-        <!-- Button Massage -->
+        <!-- Button Atap -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -119,7 +119,7 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Massage</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Atap</span>
         </button>
       </div>
 
@@ -183,7 +183,7 @@
           </svg>
           <span class="sans3 text-2xl font-semibold"> Tukang Massage</span>
         </button>
-        <!-- Button AC -->
+        <!-- Button HOME CLEANING -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -195,10 +195,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang AC</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Home Cleaning</span>
         </button>
 
-        <!-- Button Listrik -->
+        <!-- Button Service -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -210,10 +210,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Listrik</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Service Gadget</span>
         </button>
 
-        <!-- Button Pipa -->
+        <!-- Button Kunci -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -225,10 +225,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Pipa</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Kunci </span>
         </button>
 
-        <!-- Button Massage -->
+        <!-- Button Atap -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -240,7 +240,7 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Massage</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Atap</span>
         </button>
       </div>
     </div>
@@ -308,7 +308,7 @@
           </svg>
           <span class="sans3 text-2xl font-semibold"> Tukang Design Interior</span>
         </button>
-        <!-- Button CAT -->
+        <!-- Button Gorden -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -320,10 +320,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Cat</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Gorden </span>
         </button>
 
-        <!-- Button Bangunan -->
+        <!-- Button Cuci mobil -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -335,10 +335,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Bangunan</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Cuci Mobil </span>
         </button>
 
-        <!-- Button Besi -->
+        <!-- Button MakeUp -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -350,10 +350,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Besi</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang MakeUp</span>
         </button>
 
-        <!-- Button Desain -->
+        <!-- Button Nail -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -365,7 +365,7 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Design Interior</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Nail Art</span>
         </button>
       </div>
 
@@ -429,7 +429,7 @@
           </svg>
           <span class="sans3 text-2xl font-semibold"> Tukang Design Interior</span>
         </button>
-        <!-- Button CAT -->
+        <!-- Button Gorden -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -441,10 +441,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Cat</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Gorden </span>
         </button>
 
-        <!-- Button Bangunan -->
+        <!-- Button Cuci mobil -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -456,10 +456,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Bangunan</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Cuci Mobil </span>
         </button>
 
-        <!-- Button Besi -->
+        <!-- Button MakeUp -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -471,10 +471,10 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Besi</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang MakeUp</span>
         </button>
 
-        <!-- Button Desain -->
+        <!-- Button Nail -->
         <button class="bg-white p-5 flex items-center border rounded-full shadow hover:bg-gray-100">
           <svg
             class="w-16 h-16 text-green-500 mr-4"
@@ -486,7 +486,7 @@
               cy="12"
               r="10"></circle>
           </svg>
-          <span class="sans3 text-2xl font-semibold"> Tukang Design Interior</span>
+          <span class="sans3 text-2xl font-semibold"> Tukang Nail Art</span>
         </button>
       </div>
     </div>
