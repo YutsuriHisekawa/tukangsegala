@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      
       animation: {
+        
+          fadeIn: 'fadeIn 2s ease-in forwards',
         marquee: 'marquee 25s linear infinite',
         marqueekiri: 'marqueekiri 25s linear infinite',
         bounce: 'smoothBounce 1200ms'

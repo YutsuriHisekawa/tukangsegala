@@ -4,9 +4,13 @@ import atas from '../components/atas.vue';
 import lingkaran from '../components/icons/lingkaran.vue';
 import Card from '../components/card.vue';
 import testi from '../components/gal-carousel.vue';
-
+import { callback } from '../helper/scroll';
 import { ref, onMounted } from 'vue';
 const showHeroImage = ref(false);
+
+const handleScroll = (event) => {
+  callback();
+};
 onMounted(() => {
   setTimeout(() => {
     showHeroImage.value = true;
@@ -65,7 +69,9 @@ onMounted(() => {
     </section>
     <!--Kenapa Toko Tukang ?-->
 
-    <section class="bg-white">
+    <section
+      class="bg-white"
+      @scroll="handleScroll">
       <div
         class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
         <div class="lg:col-span-5 lg:flex lg:items-center md:ml-0 ml-10">
@@ -107,13 +113,13 @@ onMounted(() => {
             </div>
             <!--             <div class="flex items-center mb-4">
 
-              <img
-                src="/Tukang_Segala_Icon/sertifikasi.png"
-                alt="Palu Icon" />
-              <p class="ml-4 mr-0 fonthero">
-                Seluruh tukang yang ada di tukangsegala.com telah memiliki sertifikasi keahlian.
-              </p>
-            </div> -->
+                <img
+                  src="/Tukang_Segala_Icon/sertifikasi.png"
+                  alt="Palu Icon" />
+                <p class="ml-4 mr-0 fonthero">
+                  Seluruh tukang yang ada di tukangsegala.com telah memiliki sertifikasi keahlian.
+                </p>
+              </div> -->
           </div>
         </div>
       </div>
