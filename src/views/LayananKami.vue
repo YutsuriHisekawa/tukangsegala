@@ -1,11 +1,8 @@
 <script setup>
 import kaki from '../components/footer1.vue';
 import atas from '../components/atas.vue';
-import lingkaran from '../components/icons/lingkaran.vue';
 import Card from '../components/card1.vue';
 import Keuntungan from '../components/card2.vue';
-import testi from '../components/gal-carousel.vue';
-
 import { ref, onMounted } from 'vue';
 const showHeroImage = ref(false);
 onMounted(() => {
